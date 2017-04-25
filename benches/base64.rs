@@ -1,9 +1,9 @@
 #![feature(test)]
 
 extern crate test;
-extern crate rustc_serialize;
+extern crate b64;
 
-use rustc_serialize::base64::{FromBase64, ToBase64, STANDARD};
+use b64::{FromBase64, ToBase64, STANDARD};
 use test::Bencher;
 
 #[bench]

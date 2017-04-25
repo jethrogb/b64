@@ -1,19 +1,14 @@
 [package]
-
-name = "rustc-serialize"
-version = "0.3.24"
+name = "b64"
+version = "0.4.0"
 authors = ["The Rust Project Developers"]
 license = "MIT/Apache-2.0"
 readme = "README.md"
-repository = "https://github.com/rust-lang/rustc-serialize"
-homepage = "https://github.com/rust-lang/rustc-serialize"
-documentation = "https://doc.rust-lang.org/rustc-serialize"
+repository = "https://github.com/jethrogb/b64"
+homepage = "https://github.com/jethrogb/b64"
+documentation = "https://docs.rs/b64"
 description = """
-Generic serialization/deserialization support corresponding to the
-`derive(RustcEncodable, RustcDecodable)` mode in the compiler. Also includes
-support for hex, base64, and json encoding and decoding.
-
-This crate is deprecated in favor of serde.
+Base64 encoding/decoding support. Originally from rustc-serialize.
 """
 
 [dev-dependencies]
